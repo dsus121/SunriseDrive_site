@@ -6,7 +6,14 @@
   active color: #CDA6C1 light blue almost white
 
 */
-
+body {
+  background-color:#131210;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #edbe1c;
+}
 
 
 
@@ -88,25 +95,10 @@ a:active {
     }
   }
 
-  .form-1 {
+  /* .form-1 {
     margin-left: 40px;
     width: 500px;
 
-  }
-
-  /* label {
-    margin: 0.4rem;
-    padding: 6px;
-  }
-
-  legend {
-    background-color: #000;
-    color: #fff;
-    padding: 6px 6px;
-  } */
-  
-  /* input {
-    margin: 0.4rem;
   } */
 
 h3 {
