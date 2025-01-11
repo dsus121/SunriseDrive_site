@@ -1,0 +1,118 @@
+/* 
+  background-color: #131210 dark yellow almost black
+  main text color: #fec00f yellow
+  visited link color: #B39747 dark yellow
+  hover color: #90191C red
+  active color: #CDA6C1 light blue almost white
+
+*/
+
+
+
+
+.navbar-brand {
+    padding-left: 2em;
+}
+
+
+body {
+    background-color:#131210;
+      font-family: "Cormorant", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: #edbe1c;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 0px dotted hotpink;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+.links {
+    position: inherit;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    color: #fec00f;
+    text-decoration: none;
+
+}
+
+
+
+a:link {
+    color: #fec00f;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color: #B39747;
+}
+
+/* mouse over link */
+a:hover {
+    color: #90191C;
+}
+
+/* selected link */
+a:active {
+    color: #a7a6cd;
+}
+
+.rotate {
+    width: 5rem;
+    margin: auto;
+    position: relative;
+    transform-origin: top bottom;
+    animation: spin 12s infinite linear;  
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .form-1 {
+    margin-left: 40px;
+    width: 500px;
+
+  }
+
+  /* label {
+    margin: 0.4rem;
+    padding: 6px;
+  }
+
+  legend {
+    background-color: #000;
+    color: #fff;
+    padding: 6px 6px;
+  } */
+  
+  /* input {
+    margin: 0.4rem;
+  } */
+
+h3 {
+    margin-top: 100px;
+}
+
+#contacts {
+  margin: 2em;
+}
